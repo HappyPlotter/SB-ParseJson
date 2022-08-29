@@ -1,8 +1,9 @@
 **What is does**
 <br/>This code will parse a json and will return the arguments into the local action
 
-**How to do it**
-1. Import the code below into your Streamer.bot (this is needed only once)
+**How to do it**<br/>
+Installation Steps (Only needed once)
+1. Import the code below into your Streamer.bot
 2. Find Refs
 3. Compile
 4. Save
