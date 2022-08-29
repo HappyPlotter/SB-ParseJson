@@ -1,3 +1,4 @@
+```csharp
 using System.IO;
 using Newtonsoft.Json;
 
@@ -37,3 +38,4 @@ public class CPHInline
         return true;
     }
 }
+```
