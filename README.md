@@ -17,7 +17,7 @@ parse.name = brightsky <br />
 parse.version = 1.0.18 <br />
 parse.status = ok <br />
 
-json :```json
+json :```JSON
 [{
         "word": "day",
         "phonetic": "/deɪ/",
