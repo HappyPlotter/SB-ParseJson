@@ -12,3 +12,4 @@ Returned Arguments :
 parse.name = brightsky
 parse.version = 1.0.18
 parse.status = ok
+![image](https://user-images.githubusercontent.com/111639418/187273889-fdab1bbb-9def-40f8-81f6-4c4a62fe1aed.png)
