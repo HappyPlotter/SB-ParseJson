@@ -8,8 +8,8 @@ EXAMPLE
 
 json : {"name": "brightsky", "version": "1.0.18", "status": "ok"}
 
-Returned Arguments :
-parse.name : brightsky
-parse.version : 1.0.18
-parse.status : ok
+Returned Arguments : <br />
+parse.name = brightsky <br />
+parse.version = 1.0.18 <br />
+parse.status = ok <br />
 
