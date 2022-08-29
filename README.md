@@ -17,7 +17,7 @@ parse.name = brightsky <br />
 parse.version = 1.0.18 <br />
 parse.status = ok <br />
 
-json :
+json :```json
 [{
         "word": "day",
         "phonetic": "/deɪ/",
@@ -95,7 +95,7 @@ json :
         },
         "sourceUrls": ["https://en.wiktionary.org/wiki/day"]
     }
-]
+]```
 
 Returned Arguments :<br />
 parse.0.word = day<br />
