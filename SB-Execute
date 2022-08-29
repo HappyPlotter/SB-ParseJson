@@ -6,7 +6,7 @@ public class CPHInline
     public bool Execute()
     {
 
-		string json = args.ContainsKey("json") ? args["json"].ToString() : "" ;
+		string json = args.ContainsKey("json") ? args["json"].ToString().Trim() : "" ;
 		string prefix = args.ContainsKey("parsePrefix") ? args["parsePrefix"].ToString() : "parse" ;
 
 		if (json == "")
