@@ -8,7 +8,7 @@
 4. Save
 
 Create an action and add the following subaction
-1. Set your json string into an argument called "json"
+1. Set your json string into an argument called "json". If using the "Fetch Url" sub-action then set the "Variable Name" to "json" (without quotes)
 2. (optional) Set the prefix for the parsed arguments by setting the "parsePrefix" argument. If "parsePrefix" is missing then the default prefix will be "parse"
 3. Execute the code
 
