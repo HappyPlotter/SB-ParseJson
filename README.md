@@ -188,7 +188,7 @@ json :
 ```
 
 Returned Arguments :
-```INI
+```EditorConfig
 parse.0.word = day
 parse.0.phonetic = /deɪ/
 parse.0.phonetics0.text = /deɪ/
