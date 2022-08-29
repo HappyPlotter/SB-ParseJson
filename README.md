@@ -1,7 +1,7 @@
-**What is does**
-<br/>This code will parse a json and will return the arguments into the local action
+# What is does
+<br/>This code will parse a json and will return the arguments into the local action in [Streamer.bot](https://streamer.bot/)
 
-**How to do it**<br/>
+## How to do it <br/>
 Installation Steps (Only needed once)
 1. Import the code below into your Streamer.bot
 2. Find Refs
@@ -13,7 +13,7 @@ Create an action and add the following subaction
 2. (optional) Set the prefix for the parsed arguments by setting the "parsePrefix" argument. If "parsePrefix" is missing then the default prefix will be "parse"
 3. Execute the code
 
-**IMPORT CODE TO Streamer.bot**
+## IMPORT CODE TO Streamer.bot
 ```
 TlM0RR+LCAAAAAAABACNVtuSokgQfd+I/QeiX/Zl7EWQUSdiHwRbRHuc9gKo6zwUVSXUWFyGgrbpifn3SUBtL9MbawQBZmadzHMyMf3x5x+SdPdMU8Hi6O6TpHyoDBEKKXy7G6IkKZ54nGU0/UtITygVVBrNv0zu6jiEMzgnIPTf8rsk/ahv4GKkBNDottPE7VajpSmk0ULtTsNTFdzQUKeN1GbHU1WlxqoOfc9pXiaOcs7frDRCHqclXpbm9Mz+gnlO6CCNwyETWZwWELJFXJzF/E8mVayfxnnym+BFHHNxFof4HhVilke36VIUkTjsVbLcenEc4TxNaZTd+m6kvJDzXS4nKgISfrgIJ1TglCWHUu6qOFFxlkSWssiXoFgppVmeRkLKAiqh1M9DqE5ILMpiSeReXdUV8I7SpMfZM71hUWtAtxQ4YnpFpnIanzYbl4FIe7HZfGY4jUW8ze4nD4vNZpACwX2c7j62Npvn1r18r8pqs7vZhALHKWfePeH87hzw62Vmr8ioEZNKJLKcJF6IfVvlr8R0sscdf/qyl8dH+yJ0VGJ2c6x0Q2JoY7jnpb8/TfbEHQnkfvZXykuA1c/+tKlbc1cDm8bB3+5PY98yej4eOswz+TfLHD17yt6fLQO+Uh15PfeTYwytMOORsZzIOOT5utC/l7msvuyvlqMIF1rfUzR55fIcyxmnc5+haPLsMSux+p06pikOthF55LNnW50VUEs0Nna5MxwlHuSz+pCPWX7JwZgC59IOPPFwxNchb/1XPmwOCqw4Uxw6IVr6bDzv/W2Bba1OPCvSAxxNuH3E4XLumN3FAT+G2I+WMdoD9ut6Xuev+Lo8tIzgyLVrGRYbT6va2pV/yvv2g58vzG4E2oZe4bM5nzwtmJ7gQh8sHN1256UGYmL4O9BvxMnQKTymhyv3BXL1apylDP4K94Q3Mx1GXBzXmu2ONVX9qK6H5BU0sNfLQLZDJ1ibTmEBv5U745j1upapcVLo1Uw4ptMig6MvyNfLcqZq/Y9nx2aJ10rGC6iV9U55iBIknmn74xO2Nl+7gx30LbmoZ3jkeJqR6Wo5i8ue4UOOR64HxPRzyLn3zME3mDHmFpaodJ0D7lIXK3fCx8aIWGxfzsKZdidcHYek6blOTh60wHNt/2mu7w9998dFjz3CDI1P+UWl7anOw4Xc1TknF/rRhH4EgJUT90WUfb4+Q6u53B3noih1WC+tcpbStavZdKnzq9n2rYXsW1wvPFXnOJppi3CQwYwl9fzsRifM3/T+NPeGAC1arLzb5kBGRi8FzYB3D2zwfMNjd3iH3nBtxZGn8O4Qt8m9aBq/Pc++rOD+aOhvfMKBIK79pv2Udy96XV16abuYle30akaHp3mXceTwsqbaDvMeyf9c/SYnKcVxmDD+zo8yoRwV8wylt6vnfF2jltbUtu0GVhGCdd1UGkjZ0kangzGSW21Em9pV4j1lflCCyvfypScrkrKYbvm59BwX7cWarzzvrPq6xIjQlzLRm/Xn8fHr9SI1yxTVAvp6vn85R4mg5MxbOyugOrL+E3J2FI6FIazKY/zPX8kQe4k1CQAA
 ```
