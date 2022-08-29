@@ -6,16 +6,16 @@ public class CPHInline
     public bool Execute()
     {
 
-		string json = args.ContainsKey("json") ? args["json"].ToString().Trim() : "" ;
-		string prefix = args.ContainsKey("parsePrefix") ? args["parsePrefix"].ToString() : "parse" ;
+	string json = args.ContainsKey("json") ? args["json"].ToString().Trim() : "" ;
+	string prefix = args.ContainsKey("parsePrefix") ? args["parsePrefix"].ToString() : "parse" ;
 
-		if (json == "")
-		{
-			CPH.LogInfo("JSON is EMPTY") ;
-			return false ;
-		}
+	if (json == "")
+	{
+		CPH.LogInfo("JSON is EMPTY") ;
+		return false ;
+	}
 
-		CPH.LogDebug(json) ;
+	CPH.LogDebug(json) ;
 
         JsonTextReader reader = new JsonTextReader(new StringReader(json));
         while (reader.Read())
