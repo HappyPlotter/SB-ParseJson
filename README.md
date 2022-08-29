@@ -28,7 +28,6 @@ json :
 ```
 
 <details><summary>Returned Arguments</summary>
-<p>
 ```
 parse.weather.source_id = 42212
 parse.weather.timestamp = 29/8/2022 22:00:00
@@ -98,7 +97,6 @@ parse.sources1.first_record = 28/8/2022 15:30:00
 parse.sources1.last_record = 29/8/2022 22:00:00
 parse.sources1.distance = 34639
 ```
-</p>
 </details>
 
 json :
