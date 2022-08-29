@@ -1,4 +1,4 @@
-# What is does
+# What does it do
 <br/>This code will parse a json and will return the arguments into the local action in [Streamer.bot](https://streamer.bot/)
 
 ## How to do it <br/>
