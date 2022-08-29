@@ -27,7 +27,6 @@ json :
 {"weather": {"source_id": 42212, "timestamp": "2022-08-29T19:00:00+00:00", "cloud_cover": 75, "condition": "dry", "dew_point": 12.28, "precipitation_10": 0.0, "precipitation_30": 0.0, "precipitation_60": 0.0, "pressure_msl": 1019.9, "relative_humidity": 72, "visibility": 52837, "wind_direction_10": 40, "wind_direction_30": 40, "wind_direction_60": 47, "wind_speed_10": 8.3, "wind_speed_30": 7.9, "wind_speed_60": 7.2, "wind_gust_direction_10": 40, "wind_gust_direction_30": 40, "wind_gust_direction_60": 40, "wind_gust_speed_10": 10.8, "wind_gust_speed_30": 10.8, "wind_gust_speed_60": 10.8, "sunshine_30": 0.0, "sunshine_60": 0.0, "temperature": 17.4, "fallback_source_ids": {"cloud_cover": 11689, "condition": 11689, "pressure_msl": 11689, "visibility": 11689, "wind_direction_10": 11689, "wind_direction_30": 11689, "wind_direction_60": 11689, "wind_speed_10": 11689, "wind_speed_30": 11689, "wind_speed_60": 11689, "wind_gust_direction_10": 11689, "wind_gust_direction_30": 11689, "wind_gust_direction_60": 11689, "wind_gust_speed_10": 11689, "wind_gust_speed_30": 11689, "wind_gust_speed_60": 11689, "sunshine_30": 11689, "sunshine_60": 11689}, "icon": "partly-cloudy-night"}, "sources": [{"id": 42212, "dwd_station_id": "13696", "observation_type": "synop", "lat": 51.5966, "lon": 7.40484, "height": 60.0, "station_name": "Waltrop-Abdinghof", "wmo_station_id": "H443", "first_record": "2022-08-28T12:30:00+00:00", "last_record": "2022-08-29T19:00:00+00:00", "distance": 2523.0}, {"id": 11689, "dwd_station_id": "01303", "observation_type": "synop", "lat": 51.4041, "lon": 6.96774, "height": 150.0, "station_name": "Essen-Bredeney", "wmo_station_id": "10410", "first_record": "2022-08-28T12:30:00+00:00", "last_record": "2022-08-29T19:00:00+00:00", "distance": 34639.0}]}
 ```
 
-<details><summary>Returned Arguments</summary>
 ```
 parse.weather.source_id = 42212
 parse.weather.timestamp = 29/8/2022 22:00:00
@@ -97,7 +96,6 @@ parse.sources1.first_record = 28/8/2022 15:30:00
 parse.sources1.last_record = 29/8/2022 22:00:00
 parse.sources1.distance = 34639
 ```
-</details>
 
 json :
 ```json
