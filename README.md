@@ -180,43 +180,45 @@ json :
 ]
 ```
 
-Returned Arguments :<br />
-parse.0.word = day<br />
-parse.0.phonetic = /deɪ/<br />
-parse.0.phonetics0.text = /deɪ/<br />
-parse.0.phonetics0.audio = https://api.dictionaryapi.dev/media/pronunciations/en/day-us.mp3<br />
-parse.0.phonetics0.sourceUrl = https://commons.wikimedia.org/w/index.php?curid=711086<br />
-parse.0.phonetics0.license.name = BY-SA 3.0<br />
-parse.0.phonetics0.license.url = https://creativecommons.org/licenses/by-sa/3.0<br />
-parse.0.meanings0.partOfSpeech = noun<br />
-parse.0.meanings0.definitions0.definition = Any period of 24 hours.<br />
-parse.0.meanings0.definitions0.example = I've been here for two days and a bit.<br />
-parse.0.meanings0.definitions1.definition = A period from midnight to the following midnight.<br />
-parse.0.meanings0.definitions1.example = The day begins at midnight.<br />
-parse.0.meanings0.definitions2.definition = Rotational period of a planet (especially Earth).<br />
-parse.0.meanings0.definitions2.example = A day on Mars is slightly over 24 hours.<br />
-parse.0.meanings0.definitions3.definition = The part of a day period which one spends at one’s job, school, etc.<br />
-parse.0.meanings0.definitions3.example = I worked two days last week.<br />
-parse.0.meanings0.definitions4.definition = Part of a day period between sunrise and sunset where one enjoys daylight; daytime.<br />
-parse.0.meanings0.definitions4.synonyms0 = daylight<br />
-parse.0.meanings0.definitions4.synonyms1 = upsun<br />
-parse.0.meanings0.definitions4.antonyms0 = night<br />
-parse.0.meanings0.definitions4.example = day and night;  I work at night and sleep during the day.<br />
-parse.0.meanings0.definitions5.definition = A specified time or period; time, considered with reference to the existence or prominence of a person or thing; age; time.<br />
-parse.0.meanings0.definitions5.synonyms0 = epoch<br />
-parse.0.meanings0.definitions5.synonyms1 = era<br />
-parse.0.meanings0.definitions5.example = Every dog has its day.<br />
-parse.0.meanings0.definitions6.definition = A period of contention of a day or less.<br />
-parse.0.meanings0.definitions6.example = The day belonged to the Allies.<br />
-parse.0.meanings0.definitions7.definition = A 24-hour period beginning at 6am or sunrise.<br />
-parse.0.meanings0.definitions7.example = Your 8am forecast: The high for the day will be 30 and the low, before dawn, will be 10.<br />
-parse.0.meanings0.synonyms0 = daylight<br />
-parse.0.meanings0.synonyms1 = upsun<br />
-parse.0.meanings0.synonyms2 = epoch<br />
-parse.0.meanings0.synonyms3 = era<br />
-parse.0.meanings0.antonyms0 = night<br />
-parse.0.meanings1.partOfSpeech = verb<br />
-parse.0.meanings1.definitions0.definition = To spend a day (in a place).<br />
-parse.0.license.name = CC BY-SA 3.0<br />
-parse.0.license.url = https://creativecommons.org/licenses/by-sa/3.0<br />
-parse.0.sourceUrls0 = https://en.wiktionary.org/wiki/day<br />
+Returned Arguments :
+```
+parse.0.word = day
+parse.0.phonetic = /deɪ/
+parse.0.phonetics0.text = /deɪ/
+parse.0.phonetics0.audio = https://api.dictionaryapi.dev/media/pronunciations/en/day-us.mp3
+parse.0.phonetics0.sourceUrl = https://commons.wikimedia.org/w/index.php?curid=711086
+parse.0.phonetics0.license.name = BY-SA 3.0
+parse.0.phonetics0.license.url = https://creativecommons.org/licenses/by-sa/3.0
+parse.0.meanings0.partOfSpeech = noun
+parse.0.meanings0.definitions0.definition = Any period of 24 hours.
+parse.0.meanings0.definitions0.example = I've been here for two days and a bit.
+parse.0.meanings0.definitions1.definition = A period from midnight to the following midnight.
+parse.0.meanings0.definitions1.example = The day begins at midnight.
+parse.0.meanings0.definitions2.definition = Rotational period of a planet (especially Earth).
+parse.0.meanings0.definitions2.example = A day on Mars is slightly over 24 hours.
+parse.0.meanings0.definitions3.definition = The part of a day period which one spends at one’s job, school, etc.
+parse.0.meanings0.definitions3.example = I worked two days last week.
+parse.0.meanings0.definitions4.definition = Part of a day period between sunrise and sunset where one enjoys daylight; daytime.
+parse.0.meanings0.definitions4.synonyms0 = daylight
+parse.0.meanings0.definitions4.synonyms1 = upsun
+parse.0.meanings0.definitions4.antonyms0 = night
+parse.0.meanings0.definitions4.example = day and night;  I work at night and sleep during the day.
+parse.0.meanings0.definitions5.definition = A specified time or period; time, considered with reference to the existence or prominence of a person or thing; age; time.
+parse.0.meanings0.definitions5.synonyms0 = epoch
+parse.0.meanings0.definitions5.synonyms1 = era
+parse.0.meanings0.definitions5.example = Every dog has its day.
+parse.0.meanings0.definitions6.definition = A period of contention of a day or less.
+parse.0.meanings0.definitions6.example = The day belonged to the Allies.
+parse.0.meanings0.definitions7.definition = A 24-hour period beginning at 6am or sunrise.
+parse.0.meanings0.definitions7.example = Your 8am forecast: The high for the day will be 30 and the low, before dawn, will be 10.
+parse.0.meanings0.synonyms0 = daylight
+parse.0.meanings0.synonyms1 = upsun
+parse.0.meanings0.synonyms2 = epoch
+parse.0.meanings0.synonyms3 = era
+parse.0.meanings0.antonyms0 = night
+parse.0.meanings1.partOfSpeech = verb
+parse.0.meanings1.definitions0.definition = To spend a day (in a place).
+parse.0.license.name = CC BY-SA 3.0
+parse.0.license.url = https://creativecommons.org/licenses/by-sa/3.0
+parse.0.sourceUrls0 = https://en.wiktionary.org/wiki/day
+```
