@@ -3,6 +3,9 @@
 
 **How to do it**
 1. Import the code into your Streamer.bot (this is needed only once)
+2. Find Refs
+3. Compile
+4. Save
 
 Create an action and add the following subaction
 1. Set your json string into an argument called "json"
