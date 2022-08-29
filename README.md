@@ -23,6 +23,82 @@ parse.status = ok <br />
 
 json :
 ```json
+{"weather": {"source_id": 42212, "timestamp": "2022-08-29T19:00:00+00:00", "cloud_cover": 75, "condition": "dry", "dew_point": 12.28, "precipitation_10": 0.0, "precipitation_30": 0.0, "precipitation_60": 0.0, "pressure_msl": 1019.9, "relative_humidity": 72, "visibility": 52837, "wind_direction_10": 40, "wind_direction_30": 40, "wind_direction_60": 47, "wind_speed_10": 8.3, "wind_speed_30": 7.9, "wind_speed_60": 7.2, "wind_gust_direction_10": 40, "wind_gust_direction_30": 40, "wind_gust_direction_60": 40, "wind_gust_speed_10": 10.8, "wind_gust_speed_30": 10.8, "wind_gust_speed_60": 10.8, "sunshine_30": 0.0, "sunshine_60": 0.0, "temperature": 17.4, "fallback_source_ids": {"cloud_cover": 11689, "condition": 11689, "pressure_msl": 11689, "visibility": 11689, "wind_direction_10": 11689, "wind_direction_30": 11689, "wind_direction_60": 11689, "wind_speed_10": 11689, "wind_speed_30": 11689, "wind_speed_60": 11689, "wind_gust_direction_10": 11689, "wind_gust_direction_30": 11689, "wind_gust_direction_60": 11689, "wind_gust_speed_10": 11689, "wind_gust_speed_30": 11689, "wind_gust_speed_60": 11689, "sunshine_30": 11689, "sunshine_60": 11689}, "icon": "partly-cloudy-night"}, "sources": [{"id": 42212, "dwd_station_id": "13696", "observation_type": "synop", "lat": 51.5966, "lon": 7.40484, "height": 60.0, "station_name": "Waltrop-Abdinghof", "wmo_station_id": "H443", "first_record": "2022-08-28T12:30:00+00:00", "last_record": "2022-08-29T19:00:00+00:00", "distance": 2523.0}, {"id": 11689, "dwd_station_id": "01303", "observation_type": "synop", "lat": 51.4041, "lon": 6.96774, "height": 150.0, "station_name": "Essen-Bredeney", "wmo_station_id": "10410", "first_record": "2022-08-28T12:30:00+00:00", "last_record": "2022-08-29T19:00:00+00:00", "distance": 34639.0}]}
+```
+
+Returned Arguments :
+```
+parse.weather.source_id = 42212
+parse.weather.timestamp = 29/8/2022 22:00:00
+parse.weather.cloud_cover = 75
+parse.weather.condition = dry
+parse.weather.dew_point = 12,28
+parse.weather.precipitation_10 = 0
+parse.weather.precipitation_30 = 0
+parse.weather.precipitation_60 = 0
+parse.weather.pressure_msl = 1019,9
+parse.weather.relative_humidity = 72
+parse.weather.visibility = 52837
+parse.weather.wind_direction_10 = 40
+parse.weather.wind_direction_30 = 40
+parse.weather.wind_direction_60 = 47
+parse.weather.wind_speed_10 = 8,3
+parse.weather.wind_speed_30 = 7,9
+parse.weather.wind_speed_60 = 7,2
+parse.weather.wind_gust_direction_10 = 40
+parse.weather.wind_gust_direction_30 = 40
+parse.weather.wind_gust_direction_60 = 40
+parse.weather.wind_gust_speed_10 = 10,8
+parse.weather.wind_gust_speed_30 = 10,8
+parse.weather.wind_gust_speed_60 = 10,8
+parse.weather.sunshine_30 = 0
+parse.weather.sunshine_60 = 0
+parse.weather.temperature = 17,4
+parse.weather.fallback_source_ids.cloud_cover = 11689
+parse.weather.fallback_source_ids.condition = 11689
+parse.weather.fallback_source_ids.pressure_msl = 11689
+parse.weather.fallback_source_ids.visibility = 11689
+parse.weather.fallback_source_ids.wind_direction_10 = 11689
+parse.weather.fallback_source_ids.wind_direction_30 = 11689
+parse.weather.fallback_source_ids.wind_direction_60 = 11689
+parse.weather.fallback_source_ids.wind_speed_10 = 11689
+parse.weather.fallback_source_ids.wind_speed_30 = 11689
+parse.weather.fallback_source_ids.wind_speed_60 = 11689
+parse.weather.fallback_source_ids.wind_gust_direction_10 = 11689
+parse.weather.fallback_source_ids.wind_gust_direction_30 = 11689
+parse.weather.fallback_source_ids.wind_gust_direction_60 = 11689
+parse.weather.fallback_source_ids.wind_gust_speed_10 = 11689
+parse.weather.fallback_source_ids.wind_gust_speed_30 = 11689
+parse.weather.fallback_source_ids.wind_gust_speed_60 = 11689
+parse.weather.fallback_source_ids.sunshine_30 = 11689
+parse.weather.fallback_source_ids.sunshine_60 = 11689
+parse.weather.icon = partly-cloudy-night
+parse.sources0.id = 42212
+parse.sources0.dwd_station_id = 13696
+parse.sources0.observation_type = synop
+parse.sources0.lat = 51,5966
+parse.sources0.lon = 7,40484
+parse.sources0.height = 60
+parse.sources0.station_name = Waltrop-Abdinghof
+parse.sources0.wmo_station_id = H443
+parse.sources0.first_record = 28/8/2022 15:30:00
+parse.sources0.last_record = 29/8/2022 22:00:00
+parse.sources0.distance = 2523
+parse.sources1.id = 11689
+parse.sources1.dwd_station_id = 01303
+parse.sources1.observation_type = synop
+parse.sources1.lat = 51,4041
+parse.sources1.lon = 6,96774
+parse.sources1.height = 150
+parse.sources1.station_name = Essen-Bredeney
+parse.sources1.wmo_station_id = 10410
+parse.sources1.first_record = 28/8/2022 15:30:00
+parse.sources1.last_record = 29/8/2022 22:00:00
+parse.sources1.distance = 34639
+```
+
+json :
+```json
 [{
         "word": "day",
         "phonetic": "/deɪ/",
